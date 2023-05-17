@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML-Technical blog</title>
+    </head>
+    <body>
+        <nav id="sidebar">
+            <h1>HTML</h1>
+            <ul>
+                <li><a class="nav-item" href="#introduction">HTML introduction</a></li>
+                <li><a class="nav-item" href="#editors">HTML Editors</a></li>
+                <li><a class="nav-item" href="#attributes">HTML attributes</a></li>
+                <li><a class="nav-item" href="#heading">HTML heading</li>
+                <li><a class="nav-item" href="#paragraph">HTML paragraph</a></li>
+                <li><a class="nav-item" href="#html_style">HTML style</a></li>
+                <li><a class="nav-item" href="#html_formatting">HTML formatting</a></li>
+            </ul>
+        </nav>
+        <section id="documentation">
+            <section id="introduction">
+                <article>
+                    <h2>HTML Introduction</h2>
+                    <p>
+                        The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. 
+                        It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+    
+                        Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages.
+                        HTML describes the structure of a web page semantically and originally included cues for its appearance.
+    
+                        HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may
+                        be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text
+                        such as headings, paragraphs, lists, links, quotes, and other items.
+                    </p>
+                </article>
+            </section>
+            <section id="editors">
+                <article>
+                    <h2>HTML Editors</h2>
+                    <p>
+                        we can use notepad, VS code, Sublime text editor, Atom to creat html documents.However, It is preferred to use an opeb source editor
+                        like VScode which can compile and run other technologies like CSS and JS with HTML.
+                        <h5>&emsp;<li>Step-1:Open VS code.</li></h5>
+                        <h5>&emsp;<li>Step-2:create a workspace and save the file with ".html" notation.</li></h5>
+                        <h5>&emsp;<li>Step-3:Type the HTML code in the editor.</li></h5>
+                        <h5>&emsp;<li>Step-4:Run the HTML code by opening live server in chrome or firefox(Download live server extension)</li></h5>
+                    </p>
+                </article>
+            </section>
+            <section id="attributes">
+                <article>
+                    <h2>HTML Attribute</h2>
+                    <p>
+                        HTML Attributes
+                        <li>All HTML elements can have attributes</li>
+                        <li>Attributes provide additional information about elements</li>
+                        <li>Attributes are always specified in the start tag</li>
+                        <li>Attributes usually come in name/value pairs like: name="value"</li>
+                        <strong> Example:</strong>
+                        <pre>      &lt;image src= "cat.jpg" alt ="cat image"&gt;</pre><br>
+                        In this example src ="cat.jpg" and alt="cat image" are two attributes where src and alt are attributes name and "cat.jpg" 
+                        and "cat image" are attributes values. Here alt attribute is optional, but src is mandatory because src specify which 
+                        image to show. There should be at least one space gap between two attributes, and the value of the attributes must have 
+                        resided in the double inverted comma. Some most important HTML
+                    </p>
+                </article>
+            </section>
+            <section id="heading">
+                <article>
+                    <h2>HTML heading</h2>
+                    <p>
+                        HTML headings are titles or subtitles that you want to display on a webpage.HTML headings are defined with the 
+                        <strong>&lt;h1&gt;</strong> to <strong>&lt;h6&gt;</strong> tags.<strong>&lt;h1&gt;</strong> defines the most important 
+                        heading.<strong>&lt;h6&gt;</strong> defines the least important heading.
+                        If the content is specified by heading tags, then it would be displayed large and bold as compared to other text content 
+                        present on the web-page.
+                        <strong>Example:</strong>
+                    </p>
+                    
+                    <pre>
+                                    &lt;h1&gt;First Heading &lt;/h1&gt;
+                                    &lt;h2&gt;Second Heading &lt;/h2&gt;
+                                    &lt;h3&gt;Third Heading &lt;/h3&gt;
+                                    &lt;h4&gt;Forth Heading &lt;/h4&gt;
+                                    &lt;h5&gt;Fifth Heading &lt;/h5&gt;
+                                    &lt;h6&gt;Sixth Heading &lt;/h6&gt;</pre>
+                </article>
+            </section>
+            <section id="paragraph">
+                <article>
+                    <h2>HTML paragraph</h2>
+                    <p>
+                        HTML heading are defined by using the tag &lt;p&gt; element.
+                        The paragraph starts from a new line, adds some margins and 
+                        white space after the end.
+                        <strong>Example:</strong>
+                    </p>
+                    <pre>
+                        &lt;p&gt; Hello! and Welcome to google &lt;/p&gt;
+                        &lt;p&gt; Here you get to know all about the latest technology. &lt;/p&gt;</pre>
+                </article>
+            </section>
+            <section id="html_style">
+                <h2>HTML Style</h2>
+                <article>
+                  <p>
+                    Every browser has a specific engine that parses the HTML document and displays a default style of the page content.
+                  </p>
+                  <pre>    &lt;body style="background-color:yellow;"&gt;
+                          &lt;h1&gt;Hello world&lt;/h1&gt;
+                          &lt;p&gt;Welcome to HTML.&lt;/p&gt;
+                          &lt;/body&gt;</pre>
+                </article>
+              </section>
+              <section id="html_formatting">
+                <h2>HTML Formatting</h2>
+                <article>
+                  <p>
+                    In HTML, we have many special elements that can provide special meaning to text content.
+                  </p>
+                  <div>
+                    <table>
+                        <tr>
+                          <th>
+                                HTML   
+                          </th>
+                          <th>
+                                Description
+                          </th>
+                        </tr>
+                        <tr>
+                          <td>
+                                &lt;b&gt;
+                          </td>
+                          <td>
+                                Bold the text
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            &lt;strong&gt;
+                          </td>
+                          <td>
+                            An alternative for &lt;b&gt;, which tell that this text is essential.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            &lt;i&gt;
+                          </td>
+                          <td>
+                            Italic the text
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            &lt;em&gt;
+                          </td>
+                          <td>
+                            Similar to italic but used when we want to emphasize the text.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            &lt;mark&gt;
+                          </td>
+                          <td>
+                            It marks the text with a default "yellow" background colour
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            &lt;small&gt;
+                          </td>
+                          <td>
+                            Decrease the text size
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            &lt;del&gt;
+                          </td>
+                          <td>
+                            It prints a cross line over the text.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            &lt;ins&gt;
+                          </td>
+                          <td>
+                            Represents the inserted text by putting an underline.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            &lt;sub&gt;
+                          </td>
+                          <td>
+                            This element is used to display the subscript.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            &lt;sup&gt;
+                          </td>
+                          <td>
+                            It can make a text superscript.
+                          </td>
+                        </tr>
+                    </table>
+                  </div>
+                </article>
+              </section>
+        </section>
+    </body>
+</html>
+
+<style>
+#sidebar {
+    position: fixed;
+    min-width: 200px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+#documentation{
+    padding-left: 310px;
+    margin-bottom: 300px;
+}
+
+
+#sidebar li {
+  color: #4d4e53;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#sidebar .nav-item {
+  display: block;
+  color:black;
+  text-decoration: none;
+  cursor: pointer;
+}
+#sidebar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#sidebar h1 {
+    padding-left: 100px;
+}
+pre{
+    background-color: rgb(204, 205, 207);
+    border: solid 1px;
+    border-color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius:10px;
+}
+
+h5{
+    margin: 0px 0px;
+}
+table, th, td{
+    border: 1px solid black;
+    padding-top: 8px;
+    padding-bottom:8px;
+    padding-left: 12px;
+    padding-right:12px;
+}
+
+</style>
