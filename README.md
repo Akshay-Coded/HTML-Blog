@@ -1,6 +1,8 @@
 # HTML-Blog
 Welcome to the HTML-Blog project by Akshay-Coded! This is a simple blog template created using HTML and straightforward CSS. Whether you're a beginner looking to start your blog or an experienced developer wanting a minimalistic design, this project is here to help.
 
+#### Website URL for the above project - https://akshay-coded.github.io/HTML-Blog/
+
 ## Table of Contents
 -Features
 -Getting Started
